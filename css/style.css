@@ -16,6 +16,7 @@ a {
 img{
     max-width: 100%;
 }
+
 /* Header
 ---------------------- */
 .logo {
@@ -47,6 +48,7 @@ img{
     margin: 0 auto;
     padding: 0 4%;
 }
+
 /* Home
 ---------------------- */
 .home-content {
@@ -80,6 +82,7 @@ img{
 #home .page-title {
     text-transform: none;
 }
+
 /* About
 ---------------------- */
 #About {
@@ -105,12 +108,13 @@ footer p {
 #main.About {
     font-size: 1.2rem;
     text-align: center;
-    margin: 0 auto;
+    margin: 240px auto;
 }
 #main.About .txt{
     display: inline-block;
     text-align: left;
 }
+
 /* Skill
 ---------------------- */
 #Skill {
@@ -135,15 +139,16 @@ footer p {
 ---------------------- */
 #main.Skill {
     font-size: 1.2rem;
-    max-width: 800px;
+    max-width: 800x;
     text-align: center;
     line-height: 1.9;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 #main.Skill p.txt {
     display: inline-block;
     text-align: left;
 }
+
 /* Contact
 ---------------------- */
 #Contact {
@@ -153,22 +158,27 @@ footer p {
 #Contact .page-title {
     text-align: center;
 }
-/* Skill content
+/* Contact content
 ---------------------- */
 #main.Contact {
     font-size: 1.2rem;
     max-width: 800x;
     text-align: center;
     line-height: 1.9;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 #main.Contact p.txt {
     display: inline-block;
     text-align: left;
 }
+
 /* Mobile
 ---------------------- */
-@media screen and (max-width: 896px) and (orientation: landscape)
+@Media (max-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+}
 
 /* Header
 ---------------------- */
