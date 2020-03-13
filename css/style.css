@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+/* Common
+---------------------- */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Yu-Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+a {
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/* Header
+---------------------- */
+.logo {
+    width: 280px;
+    margin-top: 14px;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #432;
+}
+.main-nac a:hover {
+    color: #0bd;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+/* Home
+---------------------- */
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    font-size: 2rem;
+    font-family: serif;
+    margin: 10px 0 42px;
+}
+/* page-title
+---------------------- */
+.page-title {
+    font-size: 4rem;
+    font-family: serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+/* Background
+---------------------- */
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#home {
+    background-image: url(../images/main-bg.jpg);
+    min-height: 100vh;
+}
+#home .page-title {
+    text-transform: none;
+}
+/* About
+---------------------- */
+#About {
+    background-image: url(../images/main-bg.jpg);
+    height: 270px;
+}
+#About .page-title {
+    text-align: center;
+}
+/* About footer
+---------------------- */
+footer {
+    background: #432;
+    text-align: center;
+    padding: 43px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+/* About content
+---------------------- */
+#main.About {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 230px;
+}
+#main.About .txt{
+    display: inline-block;
+    text-align: left;
+}
+/* Skill
+---------------------- */
+#Skill {
+    background-image: url(../images/main-bg.jpg);
+    height: 270px;
+}
+#Skill .page-title {
+    text-align: center;
+}
+/* Skill footer
+---------------------- */
+footer {
+    background: #432;
+    text-align: center;
+    padding: 32px;
+}
+footer p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+/* Skill content
+---------------------- */
+#main.Skill {
+    font-size: 1.2rem;
+    max-width: 800x;
+    text-align: center;
+    line-height: 1.9;
+    margin: 0 auto;
+}
+#main.Skill p.txt {
+    display: inline-block;
+    text-align: left;
+}
+/* Contact
+---------------------- */
+#Contact {
+    background-image: url(../images/main-bg.jpg);
+    height: 270px;
+}
+#Contact .page-title {
+    text-align: center;
+}
+/* Skill content
+---------------------- */
+#main.Contact {
+    font-size: 1.2rem;
+    max-width: 800x;
+    text-align: center;
+    line-height: 1.9;
+    margin: 0 auto;
+}
+#main.Contact p.txt {
+    display: inline-block;
+    text-align: left;
+}
+/* Mobile
+---------------------- */
+@Media (max-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+}
+
+/* Header
+---------------------- */
+.main-nav {
+    font-size:  1rem;
+    margin-top: 10px;
+}
+.main-nav li {
+    margin: 0 20px;
+}
+/* Home
+---------------------- */
+.home-content {
+    margin-top: 20%;
+}
